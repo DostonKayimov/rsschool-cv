@@ -22,6 +22,9 @@ HTML, CSS, VS Code, Jupyter Notebook, Codepen, Git
 <ul><li><a href="https://github.com/DostonKayimov/doston_project/blob/main/project_doston.ipynb">Graphs for International Universities</a></li></ul>
 
 ## Code samples from my project:
+
+```
+
 <div><p>
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -43,10 +46,10 @@ ax1.set_ylabel("Students", fontsize=11, weight="bold", color="#12134a")
 ax1.set_xlabel("Universities", fontsize=11, weight="bold", color="#12134a")
 plt.legend(fontsize="small", loc="center left")
 
-#===============================================================
+#=======================================================================================================
 for index, student in enumerate(students_per_staff):
     ax1.annotate(student, xy=(index-0.09, student+0.5), fontsize="10", weight="bold", color="#fa3939")
-#===============================================================
+#=======================================================================================================
 
 ax2 = ax1.twinx()
 ax2.plot(universities, overall, "o-", label = "Overall", linewidth = 3)
@@ -66,9 +69,17 @@ plt.savefig("Top Universities of the world.jpg")
 plt.show()
 
   </p></div>
+```
 
 ## Work experience:
 
 Since 2018, 2nd of April, I have been working in Purchasing department as a supply agent
 for <i><b>POSCO International Textile</b>, Bukhara branch</i>.
 
+## Education:
+
+I graduated from Bukhara Engineering Technological Institute <i>(2013-2017)</i>
+
+## Language:
+
+Uzbek, Russian, English<i>(IELTS 6.0)</i>.
