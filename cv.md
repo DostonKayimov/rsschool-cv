@@ -1,85 +1,167 @@
-# Doston Kayimov
-
-## Contacts
-
-<ul>
-  <li>GitHub: <a href="https://github.com/DostonKayimov">Doston Kayimov (DostonKayimov)</a></li>
-  <li>LinkedIn: <a href="https://www.linkedin.com/in/doston-kayimov-567b5a215/">Doston Kayimov</a></li>
-  <li>E-mail: kaydoston@gmail.com</li>
-  <li>Phone: +998904158599</li>
-</ul>
-
-## Short bio
-
-<p>Presently, I've been working for foreign company "POSCO International Textile" as a supply agent in Purchasing department. Although my bachelor degree is for Electrical Engineering, I found my passion at coding. So, I have been taking courses and trainings at programming languages for a year now. I have learned the basics of HTML, CSS and Python. And just a few month ago, I completed the course "Python for Data Visualization" orginized by US Embassy in Tashkent. My future plan is the mastering two programming languages: JavaScript and Python.</p>
-
-## Skills:
-
-HTML, CSS, VS Code, Jupyter Notebook, Codepen, Git
-
-## Link to my project in the course "Python for Data Visualization":
-
-<ul><li><a href="https://github.com/DostonKayimov/doston_project/blob/main/project_doston.ipynb">Graphs for International Universities</a></li></ul>
-
-## Code samples from my project:
-
-```
-
-<div><p>
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-
-universities = ["Oxford", "Stanford", "Harvard", "Cambridge", "Yale", "Princeton", "Columbia", "Toronto", "Peking", "Melbourne"]
-overall = [95.6, 94.9, 94.8, 94, 91.6, 91.5, 86.8, 86, 83.9, 78.9]
-teaching = [91.3, 92.2, 94.4, 90.3, 91.9, 88.8, 85.1, 75.4, 89.6, 67.1]
-research = [99.6, 96.7, 98.8, 99.2, 93.8, 92.5, 82.9, 90.9, 91.3, 76.3]
-citations = [98, 99.9, 99.4, 95.6, 97.9, 98.9, 97.7, 94.5, 75.4, 90.1]
-students_per_staff =[11.1, 7.4, 9.3, 11, 6, 8, 5.7, 20, 11.1, 27]
-
-fig = plt.figure(figsize=(11, 7), dpi=200)
-
-ax1 = plt.subplot(1,1,1)
-ax1.bar(universities, students_per_staff, label = "Students per staff", color = "#15b1bf")
-ax1.set_ylim(0, 50)
-ax1.set_ylabel("Students", fontsize=11, weight="bold", color="#12134a")
-ax1.set_xlabel("Universities", fontsize=11, weight="bold", color="#12134a")
-plt.legend(fontsize="small", loc="center left")
-
-#=======================================================================================================
-for index, student in enumerate(students_per_staff):
-    ax1.annotate(student, xy=(index-0.09, student+0.5), fontsize="10", weight="bold", color="#fa3939")
-#=======================================================================================================
-
-ax2 = ax1.twinx()
-ax2.plot(universities, overall, "o-", label = "Overall", linewidth = 3)
-ax2.plot(universities, teaching, "o-", label = "Teaching", linewidth = 3)
-ax2.plot(universities, research, "o-", label = "Research", linewidth = 3)
-ax2.plot(universities, citations, "o-", label = "Citations", linewidth = 3)
-ax2.yaxis.grid(color = "#15b1bf", linestyle = ":", linewidth = "0.5")
-ax2.set_axisbelow(True)
-ax2.set_ylabel("Points (out of 100)", fontsize=11, weight="bold", color="#12134a")
-
-ax1.spines["top"].set_linewidth(0)
-ax2.spines["top"].set_linewidth(0)
-
-plt.title("Top Universities around the world", fontsize=17, weight="bold")
-plt.legend(fontsize="small")
-plt.savefig("Top Universities of the world.jpg")
-plt.show()
-
-  </p></div>
-```
-
-## Work experience:
-
-Since 2018, 2nd of April, I have been working in Purchasing department as a supply agent
-for <i><b>POSCO International Textile</b>, Bukhara branch</i>.
-
-## Education:
-
-I graduated from Bukhara Engineering Technological Institute <i>(2013-2017)</i>
-
-## Language:
-
-Uzbek, Russian, English<i>(IELTS 6.0)</i>.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">    
+    <link rel="stylesheet" href="style.css"> 
+    <title>CV#3 Doston</title>
+</head>
+<body>
+    <div class="wrapper">
+		<header class="header">
+			<div class="column">
+				<figure class="header__avatar">
+					<img src="images/avatar.jpg" class="header__picture" alt="Header avatar">
+				</figure>
+			</div>
+			<div class="column column_main column_header">
+				<h1 class="header__title">Doston Kayimov</h1>
+				<h3 class="header__subtitle">Web-developer <i>(Beginner)</i></h3>
+			</div>
+		</header>
+		<main class="main">
+			<div class="column">
+				<section class="document-section contact">
+					<h2 class="document-title">Contacts:</h2>
+					<ul class="contact__wrapper">
+						<li class="contact__block">
+							<div class="contact__image contact__image_github"></div>
+							<div class="contact__text">
+								<a href="https://github.com/DostonKayimov" target="_blank" class="contact__link">github.com/DostonKayimov</a>
+							</div>
+						</li>
+						<li class="contact__block">
+							<div class="contact__image contact__image_linkedin"></div>
+							<div class="contact__text">
+								<a href="https://www.linkedin.com/in/doston-kayimov-567b5a215/" target="_blank" class="contact__link">linkedin/doston-kayimov</a>
+							</div>
+						</li>
+						<li class="contact__block">
+							<div class="contact__image contact__image_telegram"></div>
+							<div class="contact__text">
+								<a href="https://t.me/kaydoston" target="_blank" class="contact__link">t.me/kaydoston</a>
+							</div>
+						</li>
+						<li class="contact__block">
+							<div class="contact__image contact__image_email"></div>
+							<div class="contact__text">
+								<p class="contact__mail">kaydoston@gmail.com</p>
+							</div>
+						</li>
+						<li class="contact__block">
+							<div class="contact__image contact__image_phone"></div>
+							<div class="contact__text">
+								<p class="contact__phone">+998 90 415-85-99</p>
+							</div>
+						</li>
+                        <li class="contact__block">
+							<div class="contact__image contact__image_location"></div>
+							<div class="contact__text">
+								<p class="contact__paragraph">Uzbekistan, Bukhara</p>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section class="document-section education">
+					<h2 class="document-title">Education</h2>
+					<div class="education__block">
+						<div class="date education__date">1999-2008</div>
+						<p class="education__text">Gijduvan region, 14th Midle School, <br> named "Shota Rustavelli"</p>
+					</div>
+					<div class="education__block">
+						<div class="date education__date">2008-2011</div>
+						<p class="education__text">Collage of Polytechnical, Faculty of IT</p>
+					</div>
+					<div class="education__block">
+						<div class="date education__date">2013-2017</div>
+						<p class="education__text">Bukhara Engineering Technological Intitute <br> Faculty of IT Communication in Production <br> Major of Electrical Enginnering</p>
+					</div>
+				</section>
+				<section class="document-section skills">
+					<h2 class="document-title">Skills</h2>
+					<ul class="skills__wrapper">
+						<li class="skills__block">
+							<p class="skills__text">HTML5 <i>(78%)</i></i></p>
+						</li>
+						<li class="skills__block">
+							<p class="skills__text">CSS3 <i>(75%)</i></p>
+						</li>
+						<li class="skills__block">
+							<p class="skills__text">JS basic <i>(47%)</i></p>
+						</li>
+						<li class="skills__block">
+							<p class="skills__text">Python <i>(73%)</i></p>
+						</li>
+						<li class="skills__block">
+							<p class="skills__text">VS Code <i>(77%)</i></p>
+						</li>
+						<li class="skills__block">
+							<p class="skills__text">Git&Github <i>(67%)</i></p>
+						</li>
+					</ul>				
+				</section>
+				<section class="document-section languages">
+					<h2 class="document-title">Foreign languages</h2>
+					<ul class="languages__list">
+						<li class="languages__item">Russian(B2)</li>
+						<li class="languages__item">English(B2)</li>
+					</ul>
+				</section>
+			</div>	
+			<div class="column column_main">
+				<section class="document-section about">
+					<h2 class="document-title">About me</h2>
+					<a class="about__text">
+						Hello evryone! My name is Doston and I am a future Software Engineer. Presently, I have been learning some programming languages such as JavaScript & Python.
+                        My work is involved with lots of paper work currently. I work for a foreign company called "POSCO International Textile" Bukhara branch in Purchasing department.
+                        Although my usual work day is very busy, but I always try to find some time to do my lessons to catch up with my coding courses.
+                        I hope that in soon, I gain enough knowledge and skills to start my journey  on Programming carier.
+                        For now, I am learning coding skills from <a href="https://training.epam.com/#!/Home?lang=en" target="_blank" class="document__link">EPAM</a> traing center and 
+                        <a href="https://www.freecodecamp.org/learn/" target="_blank" class="document__link">FreeCodeCamp</a> learning platform.
+					</p>
+				</section>
+				<section class="document-section work">
+					<h2 class="document-title">Work Expirience</h2>
+					<div class="work__block">
+						<div class="work__info">
+							<div class="date work__date">Present <i>(since 2018/04)</i></div>
+							<p class="work__title"><br>POSCO International Textile, Bukhara branch <a href="http://poscointltex.com/" target="_blank" class="document__link">(poscointltex.com)</a> </p>
+						</div>
+						<div class="work__text">
+							<p class="document-text">
+								<br> It has been more than three years that I have been working here as a supply agent in Purchasing department.
+                                My responsibility is to formalize the purchasing and transactions in our companies remote data system</p>
+						</div>
+					</div>
+				</section>
+				<section class="document-section hobby">
+					<h2 class="document-title">Hobbies</h2>
+					<div class="hobby__wrapper">
+						<div class="hobby__row">
+							<div class="hobby__block">
+								<div class="hobby__dot"></div>
+								<p class="hobby__text">Reading books</p>
+							</div>
+							<div class="hobby__block">
+								<div class="hobby__dot"></div>
+								<p class="hobby__text">Watching Sport matches</p>
+							</div>
+						</div>
+						<div class="hobby__row">
+							<div class="hobby__block">
+								<div class="hobby__dot"></div>
+								<p class="hobby__text">Swimming</p>
+							</div>
+							<div class="hobby__block">
+								<div class="hobby__dot"></div>
+								<p class="hobby__text">Hiking</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
