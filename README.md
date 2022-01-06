@@ -1,5 +1,4 @@
 # rsschool-cv
 
-https://github.com/DostonKayimov/rsschool-cv/blob/main/cv.md
-
+https://dostonkayimov.github.io/rsschool-cv/
 
