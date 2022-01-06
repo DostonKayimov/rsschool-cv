@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://DostonKayimov.github.io/rsschool-cv/rschool-cv-html
+https://GITHUB-USERNAME.github.io/rsschool-cv/
