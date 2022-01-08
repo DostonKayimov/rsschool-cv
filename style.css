@@ -163,22 +163,22 @@ nav {
         margin-right: 10px;
     }
     .contact__image_github{
-        background-image: url(./images/github-sign.jpg);
+        background-image: url(github-sign.jpg);
     }
     .contact__image_linkedin{
-        background-image: url(./images/linkedin.jpg);
+        background-image: url(linkedin.jpg);
     }
     .contact__image_telegram{
-        background-image: url(./images/telegram.jpg);
+        background-image: url(telegram.jpg);
     }
     .contact__image_email{
-        background-image: url(./images/arroba.jpg);
+        background-image: url(arroba.jpg);
     }
     .contact__image_phone{
-        background-image: url(./images/telephone-handle-silhouette.jpg);
+        background-image: url(telephone-handle-silhouette.jpg);
     }
     .contact__image_location{
-        background-image: url(./images/locator.jpg);
+        background-image: url(locator.jpg);
     }
     .contact__link{
         color: var(--text-color);
